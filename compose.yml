@@ -1,0 +1,13 @@
+services:
+    example-rs:
+        build: .
+        image: example-rs
+        ports:
+            - 8000:8000
+
+networks:
+    example-rs-net:
+        name: example-rs-net
+        ipam:
+            config:
+                -   subnet: 172.16.238.0/24
