@@ -1,0 +1,13 @@
+[package]
+name = "example-rs"
+version = "0.0.1"
+edition = "2021"
+description = "A nice example project"
+repository = "https://github.com/x-pt/example-rs"
+homepage = "https://github.com/x-pt/example-rs"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+
+[dev-dependencies]
+husky-rs = "0.1.0"
